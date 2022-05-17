@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    transition: 0.5s;
+}
+body {
+    background: url("../bg.jpg");
+    background-size: cover;
+    padding-top: 10px;
+    font-family: Raleway, Montserrat, arial;
+}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+/* TOP-PAGE */
+.top-page header {
+    margin-bottom: 50px;
+}
+.top-page nav {
+    display: flex;
+    justify-content: end;
+}
+.top-page a {
+    text-decoration: none;
+}
+.top-page nav li {
+    color: white;
+    list-style-type: none;
+    font-size:30px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+.top-page nav li:hover {
+    color:black;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+/* MIDDLE-PAGE */
+.middle-page {
+    padding-left: 40px;
+}
+.middle-page h1 {
+    font-size: 45px;
+    color:white;
+    margin-bottom: 50px;
+}
+.a {
+    border-style: solid;
+    border-color: white;
+    width: 550px;
+    height: 322px;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: white;
+}
+.a:hover {
+    width: 650px;
+    height: 400px;
+    background-color: black;
+    border-color: black;
+}
+.a img {
+    width: 550px;
+    height: 282px;
+}
+.a:hover img {
+    width: 650px;
+    height: 320px;
+}
+.b p {
+    font-size: 30.9px;
+    margin-left: 20px;
+}
+.a:hover p {
+    font-size: 45px;
+    color: white;
+}
+.b button {
+    border: none;
+    background-color: rgb(0, 145, 255);
+    font-size: 20px;
+    border-radius: 7px;
+    margin-left: 230px;
+    cursor: pointer;
+}
+.a:hover .b button {
+    margin-left: 290px;
+}
+.a:hover .b1 button {
+    margin-left: 220px;
+}
+.a:hover .b2 button {
+    margin-left: 350px;
+}
+.a:hover .b3 button {
+    margin-left: 320px;
+}
+.b {
+    display: flex;
+}
+.md1 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 35px
+}
+.md1 button {
+    height: 37px;
+}
+.a:hover button {
+    height: 50px;
+}
+.b1 {
+    display: flex;
+}
+.b1 p {
+    font-size: 30.9px;
+    margin-left: 20px;
+}
+.b1 button {
+    border: none;
+    background-color: rgb(0, 145, 255);
+    font-size: 20px;
+    border-radius: 7px;
+    margin-left: 185px;
+    cursor: pointer;
+}
+.b2 {
+    display: flex;
+}
+.b2 p {
+    font-size: 30.9px;
+    margin-left: 20px;
+}
+.b2 button {
+    border: none;
+    background-color: rgb(0, 145, 255);
+    font-size: 20px;
+    border-radius: 7px;
+    margin-left: 278px;
+    cursor: pointer;
+}
+.b3 {
+    display: flex;
+}
+.b3 p {
+    font-size: 30.9px;
+    margin-left: 20px;
+}
+.b3 button {
+    border: none;
+    background-color: rgb(0, 145, 255);
+    font-size: 20px;
+    border-radius: 7px;
+    margin-left: 255px;
+    cursor: pointer;
+}
+
+/* bottom-page */
+.bottom-page {
+    padding-left: 40px;
+    margin-top: 45px;
+}
+.bottom-page h1 {
+    font-size: 45px;
+    color: white;
+    margin-bottom: 50px;
+}
+.bottom-page p {
+    font-size: 40px;
+    color: white;
+    padding-bottom: 50px;
+
+}
